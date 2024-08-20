@@ -52,13 +52,17 @@ main {
 }
 
 .form-list {
-  list-style-type: none;
+  list-style-type: none; /* Removes Bullet Points */
 }
 
 /* Anchor Link Styles - Styles the links in the header and elsewhere */
 a {
   text-decoration: none; /* Removes underline from links */
   color: #FDF8F5; /* White text color for visibility on dark background */
+}
+
+.portfolio-figcaption {
+  color: #4F4846; /* Dark text color */
 }
 
 /* Icon Styles - Styles the icon next to the "Github" link */
@@ -170,4 +174,8 @@ button {
 
 .text-left {
   text-align: left; /* Aligns text to the left */
+}
+
+.portfolio-screenshot {
+  height: 200px;
 }
