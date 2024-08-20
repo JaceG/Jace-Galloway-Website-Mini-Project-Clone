@@ -51,6 +51,10 @@ main {
   margin-right: 20px; /* Adds space between list items */
 }
 
+.form-list {
+  list-style-type: none;
+}
+
 /* Anchor Link Styles - Styles the links in the header and elsewhere */
 a {
   text-decoration: none; /* Removes underline from links */
@@ -86,11 +90,17 @@ header {
 
 /* Footer Specific Styles */
 footer {
+  height: 60px; /* Fixed height for the footer */
+  width: 100%; /* Ensures the footer spans the full width of the page */
+  background-color: #266150; /* Dark green background color */
+  border-bottom: 10px solid #4F4846; /* Adds a solid border at the bottom */
+  color: #FDF8F5; /* White text color */
+  
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center; /* Vertically centers the content */
   position: absolute; /* Positions the footer relative to the body */
-  margin-top: 0; /* Removes any top margin */
   bottom: 0; /* Sticks the footer to the bottom of the page */
-  border-bottom: 10px solid #4F4846; /* Dark border at the bottom of the footer */
-  color: #FDF8F5; /* White text color for visibility on dark background */
 }
 
 /* Figure Styles - Adds margin to figure elements */
