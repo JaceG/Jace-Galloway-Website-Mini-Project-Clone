@@ -51,6 +51,12 @@ main {
   margin-right: 20px; /* Adds space between list items */
 }
 
+.header-list li i {
+  display: inline-block;
+  margin-right: 2px;
+  filter: invert();
+}
+
 .form-list {
   list-style-type: none; /* Removes Bullet Points */
 }
@@ -63,16 +69,6 @@ a {
 
 .portfolio-figcaption {
   color: #4F4846; /* Dark text color */
-}
-
-/* Icon Styles - Styles the icon next to the "Github" link */
-.icon {
-  display: inline-block; /* Ensures the icon is displayed inline with the text */
-  width: 20px; /* Sets a fixed width for the icon */
-  height: auto; /* Automatically adjusts the height to maintain aspect ratio */
-  margin-right: 8px; /* Adds space between the icon and the link text */
-  vertical-align: middle; /* Aligns the icon vertically with the text */
-  filter: invert(); /* Inverts the colors of the icon */
 }
 
 /* Header and Footer Styles - Styles the header and footer elements */
