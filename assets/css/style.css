@@ -51,7 +51,7 @@ main {
   margin-right: 20px; /* Adds space between list items */
 }
 
-.header-list .icon li {
+.header-list .icon {
   display: inline-block;
   margin-right: 5px;
 }
