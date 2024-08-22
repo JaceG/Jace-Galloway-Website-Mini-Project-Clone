@@ -51,9 +51,10 @@ main {
   margin-right: 20px; /* Adds space between list items */
 }
 
-.header-list li i {
+.icon {
   display: inline-block;
   margin-right: 5px;
+  color: #fff;
 }
 
 .form-list {
