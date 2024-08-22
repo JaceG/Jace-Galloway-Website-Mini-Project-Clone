@@ -51,12 +51,6 @@ main {
   margin-right: 20px; /* Adds space between list items */
 }
 
-.icon {
-  display: inline-block;
-  margin-right: 5px;
-  color: #fff;
-}
-
 .form-list {
   list-style-type: none; /* Removes Bullet Points */
 }
