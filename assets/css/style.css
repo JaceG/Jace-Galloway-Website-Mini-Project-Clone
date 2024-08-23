@@ -63,6 +63,7 @@ a {
 
 .portfolio-figcaption {
   color: #4F4846; /* Dark text color */
+  text-align: center; /* Align Text */
 }
 
 /* Header and Footer Styles - Styles the header and footer elements */
